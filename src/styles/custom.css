@@ -1,0 +1,38 @@
+/* sverm.dev custom styles — dark, minimal, developer-focused */
+
+:root {
+  --sl-color-accent-low: #1a0e00;
+  --sl-color-accent: #f09030;
+  --sl-color-accent-high: #f5c882;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #e8e8e8;
+  --sl-color-gray-2: #b0b0b0;
+  --sl-color-gray-3: #686868;
+  --sl-color-gray-4: #383838;
+  --sl-color-gray-5: #222222;
+  --sl-color-gray-6: #151515;
+  --sl-color-black: #0d0d0d;
+}
+
+/* Monospace for code elements */
+code, pre, kbd {
+  font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+}
+
+/* Landing page hero tweaks */
+.hero {
+  padding: 3rem 0;
+}
+
+.hero .tagline {
+  font-size: 1.25rem;
+  color: var(--sl-color-gray-2);
+}
+
+/* Make inline code slightly warmer */
+:root[data-theme="dark"] code:not(pre code) {
+  background: rgba(240, 144, 48, 0.12);
+  color: var(--sl-color-accent-high);
+  border-radius: 3px;
+  padding: 0.15em 0.35em;
+}

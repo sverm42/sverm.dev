@@ -1,0 +1,57 @@
+---
+title: sverm.dev
+description: Build, understand, and extend AI swarm systems.
+template: splash
+hero:
+  tagline: Build AI swarms. Open. Raw. Well documented.
+  actions:
+    - text: Get started
+      link: /getting-started/
+      icon: right-arrow
+    - text: Playground
+      link: https://sverm.ai/playground
+      icon: external
+      variant: minimal
+    - text: Contact
+      link: mailto:raymond@sverm.ai
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Three things you can do right now
+
+<CardGrid stagger>
+  <Card title="Run your first swarm" icon="rocket">
+    Install the CLI and run a 5-agent research swarm in under 2 minutes.
+  </Card>
+  <Card title="Understand the architecture" icon="puzzle">
+    Read how agents communicate, how cost routing works, and why agents are stateless.
+  </Card>
+  <Card title="Deploy to production" icon="server">
+    From a single VPS to Kubernetes — pick the deployment that fits your scale.
+  </Card>
+</CardGrid>
+
+---
+
+## What is sverm.dev?
+
+This is the **machine room**. [sverm.ai](https://sverm.ai) is the product — this is
+where you learn how it works, how to build with it, and how to extend it.
+
+We don't do marketing here. We do documentation, benchmarks, and the occasional
+honest blog post about what we've learned.
+
+:::note
+This site and the sverm platform are **in active development**.
+The documentation describes the target architecture and API — some
+features are still being built. For questions or early access:
+[raymond@sverm.ai](mailto:raymond@sverm.ai).
+:::
+
+```bash
+pip install sverm
+sverm run research "norwegian hydrogen economy"
+```
