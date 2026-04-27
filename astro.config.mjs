@@ -47,7 +47,21 @@ export default defineConfig({
 					label: 'Run',
 					items: [
 						{ label: 'Deployment', slug: 'deployment' },
+						{ label: 'Playground', slug: 'playground' },
 						{ label: 'Examples', slug: 'examples' },
+					],
+				},
+				{
+					label: 'Blog',
+					items: [
+						{ label: 'All posts', slug: 'blog' },
+						{ label: 'Why stateless agents', slug: 'blog/why-stateless-agents' },
+					],
+				},
+				{
+					label: 'Data',
+					items: [
+						{ label: 'Benchmarks', slug: 'benchmarks' },
 					],
 				},
 			],
