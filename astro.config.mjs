@@ -16,7 +16,7 @@ export default defineConfig({
 			},
 			defaultLocale: 'root',
 			social: [
-				// GitHub org coming soon
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/sverm42/sverm.dev' },
 			],
 			sidebar: [
 				{
